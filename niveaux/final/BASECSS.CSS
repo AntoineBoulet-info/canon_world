@@ -1,0 +1,41 @@
+@font-face {
+  font-family : "calling" ;
+  src: url('police/calling.otf') ;
+}
+
+body {
+  
+  font-family: "calling" ;
+  color : white ;
+  text-shadow: black 1px 1px, black -1px 1px, black -1px -1px, black 1px -1px; 
+  overflow: hidden;
+  background: url("../../images/final.jpg") no-repeat center center fixed ; 
+  height: 100%;
+  width: 100%;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+
+}
+
+#text {
+  position:absolute ; 
+  font-size: 400% ;
+  left: 580px ;
+
+}
+
+
+#text2 {
+  position:absolute ; 
+  font-size: 250% ;
+  left: 100px ;
+  top: 200px ;
+}
+
+#textf {
+  position:absolute ;
+  font-size : 250% ;
+  top:500px ;
+  left: 650px
+}

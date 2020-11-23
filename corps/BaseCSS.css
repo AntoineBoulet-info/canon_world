@@ -1,0 +1,110 @@
+body {
+  height: 100%;
+  width: 100%;
+  background: url('../images/testfond.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#murpierre {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  height: 500px;
+  width: 20px;
+  border-style: solid;
+  border-width: 1px;
+  z-index: 3;
+  background-image: url('../images/murpierre.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  
+}
+
+#canon {
+  position: absolute;
+  bottom: 0%;       /*-30%*/
+  left: 0%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  width: 100%;
+  transform: rotate(0deg);
+}
+
+#canvas {
+  border-style: solid;
+}
+
+#boule {
+  position: fixed;
+  top: 58%;  /*58*/
+  left: 48.3%;  /*48.3*/
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  width: 2.2%;  /*2.2*/
+  transform-origin: top left;
+  z-index: -1;
+}
+
+#coffre {
+  position: absolute;
+  top: 15%;
+  left: 48.3%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  width: 10%;
+  transform-origin: bottom left;
+  z-index: 0;
+}
+
+#explosion {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  z-index: -1;
+  top: 97%;
+  left: 4%;
+  
+}
+
+#canonboule {
+  /*border-style: solid;*/
+  width: 8%;
+  height: 140%;      /*20%*/
+  position: absolute;
+  top: -64%;         /*50%*/
+  left: 44%;
+}
+
+#bordureL {
+  height: 99%;
+  left: 0%;
+  top: 0%;
+}
+
+#bordureR {
+  right: 0%;
+  top: 0%;
+  height: 99%;
+}
+
+#bordureT {
+  left: 0%;
+  top: 0%;
+  width: 99%;
+}
+
+#bordureB {
+  left: 0%;
+  bottom: 0%;
+  width: 99%;
+}
+
+.border {
+  position: absolute;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0);
+}

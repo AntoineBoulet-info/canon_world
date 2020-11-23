@@ -1,0 +1,50 @@
+﻿ <!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>Niveau 9</title>
+		<meta name="auteur" content="" />
+		<link rel="stylesheet" href="BaseCSS.css"/>
+		<link rel="icon" type="image/x-icon" href="../images/favicon.ico" /><link rel="shortcut icon" type="image/x-icon" href="../../images/favicon.ico" />
+		<script src="jquery-3.3.1.min.js"> </script>
+		<script src="jquery-ui.js"></script>
+		<script src="jquery-rotate.js"></script>
+		<script type="text/javascript" src="BaseJS.js"> </script>
+	</head>
+
+		<body>
+			<img src="../../images/coffre.png" id="coffre">
+			<div id="canonboule">
+				<img src="../../images/boule.png" id="boule">
+				<img src="../../images/canon.png" id="canon">
+				<img src="../../images/image.png" id="explosion"/>
+			</div>
+			<div id="tuyau" class="Tentree"></div>
+			<div id="tuyau" class="Tsortie"></div>
+			<div id="murpierre" class="murpierre1"></div>
+			<div id="murpierre" class="murpierre2"></div>
+			<div id="murpierre" class="murpierre3"></div>
+			<div id="murpierre" class="murpierre4"></div>
+			<div id="murbois" class="murbois1"></div>
+			<div id="bordureL" class="border"></div>
+			<div id="bordureR" class="border"></div>
+			<div id="bordureT" class="border"></div>
+			<div id="bordureB" class="border"></div>
+			<div id="popup">
+				<span> Bravo! Vous pouvez passer au niveau suivant!</span>
+				<input id="button" type="button" value="Suivant" onclick="window.location='../../carte/basehtml.html';">
+		  </div>
+			<div id="popup2" >
+				<span id="text"> Dommage! Essayez encore... </span>
+				<input id="button2" type="button" value="Retour" onclick="window.location.reload(false)">
+			</div>
+		</body>
+
+
+		<audio id="boum" preload="auto">
+              <source src="../../sons/boum.mp3"> </source>
+        </audio>
+
+</html>

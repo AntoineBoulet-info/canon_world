@@ -1,0 +1,68 @@
+@font-face {
+  font-family : "calling" ;
+  src: url('police/calling.otf') ;
+}
+
+
+ 
+ 
+
+
+body {
+  
+  font-family: "calling" ;
+  color : white ;
+  text-shadow: black 1px 1px, black -1px 1px, black -1px -1px, black 1px -1px; 
+  overflow: hidden;
+  background: url("../images/ship.jpg") no-repeat center center fixed ; 
+  height: 100%;
+  width: 100%;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+
+}
+
+
+#title {
+  text-align: center ;
+  font-size : 50px ;
+}
+
+#piece {
+  position:absolute;
+  left: 38% ;
+  width: 25%;
+  border: solid 2px white ;
+  top:150px ;
+}
+
+#piece:hover {
+  position:absolute;
+  left: 37% ;
+  top:160px ;
+  width: 27%;
+  border: solid 4px white ;
+ 
+}
+
+
+#title2 {
+  position:absolute ;
+  font-size: 60px ;
+  bottom:155px ;
+  left: 580px ;
+  color: red ;
+  text-shadow: white 1px 1px, white -1px 1px, white -1px -1px, white 1px -1px; 
+}
+
+p {
+  position:absolute ;
+  bottom: 70px ;
+  left: 150px ;
+ }
+
+#tittle3 {
+  position:absolute;
+  left:1000px ;
+}

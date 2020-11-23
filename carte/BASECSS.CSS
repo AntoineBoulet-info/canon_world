@@ -1,0 +1,14 @@
+body {
+  height: 100%;
+  width: 100%;
+  background: url('../images/carte.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#bateau {
+  position: absolute;
+  left: 6.5%;   /*6.5*/
+  top: 10%;     /*10*/
+  width: 8%;
+}

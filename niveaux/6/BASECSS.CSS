@@ -1,0 +1,248 @@
+body {
+  height: 100%;
+  width: 100%;
+  background: url('../../images/testfond.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  font-family: "calling" ;
+  color : white ;
+  text-shadow: black 1px 1px, black -1px 1px, black -1px -1px, black 1px -1px;
+}
+
+@font-face {
+  font-family : "calling" ;
+  src: url('police/calling.otf') ;
+}
+
+#boule {
+  position: fixed;
+  top: 43%;  /*58*/
+  left: 94.4%;  /*48.3*/
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  width: 2.2%;  /*2.2*/
+  transform-origin: top left;
+  z-index: -1;
+}
+
+#canonboule {
+  /*border-style: solid;*/
+  width: 8%;
+  height: 185%;      /*20%*/
+  position: absolute;
+  top: -124%;         /*50%*/
+  left: 90%;
+}
+
+#canon {
+  position: absolute;
+  bottom: 0%;       /*-30%*/
+  left: 0%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  width: 100%;
+  transform: rotate(0deg);
+}
+
+#murpierre {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-image: url('../../images/murpierre.jpg');
+}
+
+#murbois {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-image: url('../../images/murboisH.jpg');
+}
+
+
+
+.murpierre1 {
+  position: absolute;
+  top: 32.5%;
+  left: 25%;
+  height: 200px;
+  width: 40px;
+  background-size:500% 80%;
+}
+
+.murpierre2 {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  height: 229px;
+  width: 40px;
+  background-size:500% 80%;
+}
+
+.murbois1 {
+  position: absolute;
+  top: 0%;
+  left: 45%;
+  height: 100%;
+  width:80px;
+  background-size:1000% 20%;
+}
+
+
+#canvas {
+  border-style: solid;
+}
+
+
+#coffre {
+  position: absolute;
+  top: 10%;
+  left: 13.3%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  width: 10%;
+  transform-origin: bottom left;
+  z-index: 0;
+}
+
+#explosion {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  z-index: -1;
+  top: 97%;
+  left: 4%;
+
+}
+
+
+
+#bordureL {
+  height: 99%;
+  left: 0%;
+  top: 0%;
+}
+
+#bordureR {
+  right: 0%;
+  top: 0%;
+  height: 99%;
+}
+
+#bordureT {
+  left: 0%;
+  top: 0%;
+  width: 99%;
+}
+
+#bordureB {
+  left: 0%;
+  bottom: 0%;
+  width: 99%;
+}
+
+.border {
+  position: absolute;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+#button {
+  position:absolute ;
+  top: 60px ;
+  width: 100px ;
+  border:none;
+	padding:6px 0 6px 0;
+	background:rgba(0,0,0,0);
+	font:bold 13px Arial;
+	color:green;
+  font-family : "calling" ;
+  text-shadow: white 1px 1px, white -1px 1px, white -1px -1px, white 1px -1px;
+  font-size:25px ;
+  left: 140px;
+}
+
+#button:hover {
+  position:absolute ;
+  top: 65px ;
+  width: 100px ;
+  border:none;
+	padding:6px 0 6px 0;
+	border-radius:8px;
+	background:rgba(0,0,0,0);
+	font:bold 13px Arial;
+	color:green;
+  font-family : "calling" ;
+  text-shadow: white 1px 1px, white -1px 1px, white -1px -1px, white 1px -1px;
+  font-size:25px ;
+}
+
+#popup {
+  text-align: center;
+  opacity: 0;
+  border: solid 2px green ;
+  height: 150px ;
+  width: 350px ;
+  padding:10px ;
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  left: -100%;
+  font-size: 20px;
+  background: url("../../images/win.jpg") ;
+  background-size : 100% 100% ;
+  top: -100%;
+
+}
+
+#popup2 {
+  text-align: center;
+  opacity: 0;
+  border: solid 2px red ;
+  height: 150px ;
+  width:350px ;
+  padding:10px ;
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  left:-100%;
+  font-size: 20px;
+  background: url("../../images/lose.gif");
+  background-size : 100% 100% ;
+  top: -100%;
+}
+
+#button2 {
+  position:absolute ;
+  top: 60px ;
+  width: 100px ;
+  border:none;
+	padding:6px 0 6px 0;
+	border-radius:8px;
+	background:rgba(0,0,0,0);
+	font:bold 13px Arial;
+	color:red;
+  font-family : "calling" ;
+  text-shadow: black 1px 1px, black -1px 1px, black -1px -1px, black 1px -1px;
+  font-size:25px ;
+  left: 140px;
+
+}
+
+#button2:hover {
+  position:absolute ;
+  top: 65px ;
+  width: 100px ;
+  border:none;
+	padding:6px 0 6px 0;
+	border-radius:8px;
+	background:rgba(0,0,0,0);
+	font:bold 13px Arial;
+	color:red;
+  font-family : "calling" ;
+  text-shadow: black 1px 1px, black -1px 1px, black -1px -1px, black 1px -1px;
+  font-size:25px ;
+  left: 140px;
+
+}
